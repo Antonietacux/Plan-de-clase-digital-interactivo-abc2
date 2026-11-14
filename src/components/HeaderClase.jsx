@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export function HeaderClase({ titulo, curso, progreso }) {
+export function HeaderClase({ titulo, curso,profesora, progreso }) {
   return (
     <header className="header-clase">
       <div className="header-info">
         <span className="badge-curso">{curso}</span>
         <h1>{titulo}</h1>
+        <p className="profesora">Profesora: {profesora}</p>
       </div>
 
       <nav aria-label="Navegación de la clase" className="header-nav">

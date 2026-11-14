@@ -88,6 +88,7 @@ export default function App() {
       <HeaderClase
         titulo="DELITOS INFORMÁTICOS"
         curso="Tecnología de la Información y la Comunicación"
+        profesora="María Antonieta Beatriz Cux Morales"
         progreso={progreso}
       />
 
