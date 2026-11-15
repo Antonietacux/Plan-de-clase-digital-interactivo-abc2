@@ -5,6 +5,9 @@ import { ObjetivoCard } from './components/ObjetivoCard';
 import { ActividadItem } from './components/ActividadItem';
 import { EvaluacionForm } from './components/EvaluacionForm';
 import './App.css';
+import { Lista } from './components/Lista';
+
+
 
 const TEMAS_CONTENIDO = [
   {
@@ -91,6 +94,10 @@ export default function App() {
         profesora="María Antonieta Beatriz Cux Morales"
         progreso={progreso}
       />
+<section className="seccion-bloque">
+  <h2>Resultados en Línea (NocoDB)</h2>
+  <Lista />
+</section>
 
       <main className="contenedor-principal">
         <section id="objetivos" className="seccion-bloque">
